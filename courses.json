@@ -1,39 +1,27 @@
 [
   {
-    "name": "Introduction",
-    "content": "Iss exercise mein aapne yeh sab karna hai.",
-    "hint": "Hello! Yeh ek hint hai!!!!",
-    "id": 1,
-    "exercise": [
-      {
-        "courseId": "1",
-        "name": "anand",
-        "hint": "anoop",
-        "id": 1,
-        "submission": []
-      },
-      {
-        "courseId": "1",
-        "name": "Introduction",
-        "content": "Iss exercise mein aapne yeh sab kuch nhi karna  hai.",
-        "hint": "Hello! Yeh ek hint hai!!!!",
-        "id": 2,
-        "submission": []
-      }
-    ]
+    "name": "Learning Yogesh",
+    "description": "He is a student of NavGurukul",
+    "id": 1
   },
   {
-    "name": "Introduction",
-    "content": "Iss exercise mein aapne yeh sab karna hai.",
-    "hint": "Hello! Yeh ek hint hai!!!!",
-    "id": 2,
-    "exercise": []
+    "name": "Learning Satyam",
+    "description": "In this course we learn Python.",
+    "id": 2
   },
   {
-    "name": "Introduction",
-    "content": "Iss exercise mein aapne yeh sab karna hai.",
-    "hint": "Hello! Yeh ek hint hai!!!!",
-    "id": 3,
-    "exercise": []
+    "name": "Learning Anand",
+    "description": "In this course we learn about Nodejs express.",
+    "id": 3
+  },
+  {
+    "name": "Learning Yogendra",
+    "description": "In this course we learn HTML and CSS.",
+    "id": 4
+  },
+  {
+    "name": "Learning Pratik",
+    "description": "In this course we learn about flask.",
+    "id": 5
   }
 ]

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Learning Satyam",
+    "description": "In this course we learn Python.",
+    "id": 1,
+    "exercises": [
+      {
+        "courseId": "1",
+        "name": "Anand@@@@@@@Pradesh Dharamshala",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 1,
+        "submissions": [
+          {
+            "courseId": "1",
+            "exerciseId": "1",
+            "content": "Yaha aapki submissions ka content.",
+            "userName": "Rishabh Verma and Anand",
+            "id": 1
+          },
+          {
+            "courseId": "1",
+            "exerciseId": "1",
+            "content": "Yaha aapki submissions ka content.",
+            "userName": "Hello Rishabh V",
+            "id": 2
+          }
+        ]
+      },
+      {
+        "courseId": "1",
+        "name": "Introduction of html and css",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "---Hello! Yeh ek hint hai!!!",
+        "id": 2,
+        "submissions": [
+          {
+            "courseId": "1",
+            "exerciseId": "2",
+            "content": "Yaha aapki submissions ka content.",
+            "userName": "---This is last task---",
+            "id": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Learning Anand",
+    "description": "In this course we learn about Nodejs express.",
+    "id": 2,
+    "exercises": [
+      {
+        "courseId": "2",
+        "name": "Pratik&&&&&&&&Yogesh--",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 1,
+        "submissions": [
+          {
+            "courseId": "2",
+            "exerciseId": "1",
+            "content": "Yaha aapki submissions ka content.",
+            "userName": "Hello NavGurukul----",
+            "id": 1
+          }
+        ]
+      },
+      {
+        "courseId": "2",
+        "name": "Introduction of css",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 2,
+        "submissions": [
+          {
+            "courseId": "2",
+            "exerciseId": "2",
+            "content": "Yaha aapki submissions ka content.",
+            "userName": "-------NavGurukul----",
+            "id": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Learning Yogendra",
+    "description": "In this course we learn HTML and CSS.",
+    "id": 3,
+    "exercises": [
+      {
+        "courseId": "3",
+        "name": "Hello NavGurukul",
+        "content": "Iss exercise mein aapne yeh sab karna hai.",
+        "hint": "Hello! Yeh ek hint hai!!!",
+        "id": 1,
+        "submissions": [
+          {
+            "courseId": "3",
+            "exerciseId": "1",
+            "content": "Yaha aapki submissions ka content.",
+            "userName": "B..By by by",
+            "id": 1
+          }
+        ]
+      }
+    ]
+  }
+]
