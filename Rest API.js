@@ -9,8 +9,7 @@ var bodyparser = require("body-parser");
 
 app.use(express.json());
 
-// task-1
-
+// list of all newcourses
 app.get("/newcourses", (req, res)=>{
     fs.readFile(__dirname + "/courses.json", (err, data)=>{
         var mydata = JSON.parse(data)
@@ -18,8 +17,7 @@ app.get("/newcourses", (req, res)=>{
     })
 })
 
-// task-2
-
+// create new newcourse
 app.post("/newcourses", (req, res)=>{
     var courses = req.body;
     // console.log(newcourses);
@@ -43,8 +41,8 @@ app.post("/newcourses", (req, res)=>{
         }
     })
 })
-// task-3
 
+// get course details by id
 app.get("/newcourses/:id", (req, res)=>{
     var id = req.params.id;
     console.log(id);
@@ -65,8 +63,7 @@ app.get("/newcourses/:id", (req, res)=>{
     })
 })
 
-// task-4
-
+// edit a course by id
 app.put("/newcourses/:id", (req, res)=>{
     fs.readFile(__dirname + "/courses.json", (err, data)=>{
         var mydata = JSON.parse(data);
@@ -87,8 +84,7 @@ app.put("/newcourses/:id", (req, res)=>{
     })
 })
 
-// task-5
-
+// get exercises of a course
 app.get("/newcourses/:id/exercises", (req, res)=>{
     fs.readFile(__dirname + "/exercises.json", (err, data)=>{
         if (err){
@@ -101,8 +97,7 @@ app.get("/newcourses/:id/exercises", (req, res)=>{
     })
 })
 
-// task-6
-
+// create exercise of newcourse
 app.post("/newcourses/:id/exercises", (req, res)=>{
     fs.readFile(__dirname + "/exercises.json", (err, data)=>{
         if (err){
@@ -125,8 +120,7 @@ app.post("/newcourses/:id/exercises", (req, res)=>{
     })
 })
 
-// task-7
-
+// get exercise by Id
 app.get("/newcourses/:id/exercises/:Id", (req, res)=>{
     fs.readFile(__dirname + "/exercises.json", (err, data)=>{
         if (err){
@@ -144,8 +138,7 @@ app.get("/newcourses/:id/exercises/:Id", (req, res)=>{
     })
 })
 
-// task-8
-
+// edit exercise by id
 app.put("/newcourses/:id/exercises/:Id", (req, res)=>{
     fs.readFile(__dirname + "/exercises.json", (err, data)=>{
         if (err){
@@ -166,8 +159,7 @@ app.put("/newcourses/:id/exercises/:Id", (req, res)=>{
     })
 })
 
-// task-9
-
+// get submissions of an exercise
 app.get("/newcourses/:id/exercises/:Id/submissions", (req, res)=>{
     fs.readFile(__dirname + "/submissions.json", (err, data)=>{
         if (err){
@@ -189,8 +181,7 @@ app.get("/newcourses/:id/exercises/:Id/submissions", (req, res)=>{
     })
 })
 
-// task-10
-
+// create submissions of an exercise
 app.post("/newcourses/:id/exercises/:Id/submissions", (req, res)=>{
     fs.readFile(__dirname + "/submissions.json", (err, data)=>{
         if (err){
